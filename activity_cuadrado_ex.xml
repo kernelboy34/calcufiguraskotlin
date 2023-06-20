@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuadrado_ex">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="159dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_3" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="349dp"
+        android:layout_height="356dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="289dp"
+        android:text="Un cuadrado es una figura geométrica bidimensional que tiene cuatro lados iguales y cuatro ángulos rectos. Algunos cálculos que se pueden hacer con un cuadrado incluyen:
+
+Calcular el perímetro: el perímetro del cuadrado es la suma de las longitudes de sus cuatro lados. Si la longitud de cada lado es a, entonces el perímetro es P = 4a.
+Calcular el área: el área del cuadrado es la cantidad de espacio que ocupa dentro de sus cuatro lados iguales. Se puede calcular utilizando la fórmula A = a², donde a es la longitud de uno de los lados.
+Calcular la diagonal: la diagonal del cuadrado es la línea recta que une dos vértices opuestos. Se puede calcular utilizando el teorema de Pitágoras: d² = a² + a², donde d es la longitud de la diagonal y a es la longitud de uno de los lados. Entonces, d = √2a.
+Calcular la longitud de un lado: si se conoce el perímetro del cuadrado, se puede calcular la longitud de cada lado dividiendo el perímetro entre 4. Es decir, a = P/4.
+Calcular el perímetro y el área de un cuadrado inscrito en un círculo: si un cuadrado está inscrito en un círculo, entonces la longitud de cada lado del cuadrado es igual al diámetro del círculo. Por lo tanto, el perímetro del cuadrado es igual al diámetro del círculo multiplicado por 4. Si el diámetro del círculo es d, entonces el perímetro del cuadrado es P = 4d y el área del cuadrado es A = (d/√2)² = (1/2)d²."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

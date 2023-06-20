@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".piramide_ex">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="260dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_d_shape_triangle_pyramid_in_pastel_color_free_png" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="355dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="337dp"
+        android:text="Una pirámide es una figura geométrica tridimensional que tiene una base poligonal y una punta llamada vértice. Las caras laterales son triángulos que se unen en el vértice y cada uno de ellos comparte un lado con la base.
+
+Algunos cálculos que se pueden hacer con una pirámide incluyen:
+
+Calcular el perímetro de la base: el perímetro de la base de la pirámide es la suma de las longitudes de todos los lados del polígono que forma la base. Por ejemplo, si la base de la pirámide es un cuadrado con lados de longitud a, entonces el perímetro es P = 4a.
+Calcular el área de la base: el área de la base de la pirámide es la cantidad de espacio que ocupa el polígono que forma la base. Para un polígono regular, se puede calcular utilizando la fórmula A = (perímetro de la base x apotema de la base) / 2. El apotema de la base es la distancia desde el centro del polígono hasta uno de los lados. Si la base de la pirámide es un cuadrado con lados de longitud a, entonces el área de la base es A = a².
+Calcular el área lateral: el área lateral de la pirámide es la suma de las áreas de todas las caras laterales. Si la pirámide es regular, entonces las caras laterales son triángulos congruentes. El área de cada triángulo se puede calcular utilizando la fórmula A = (1/2)bh, donde b es la longitud de la base del triángulo y h es la altura. La altura de cada triángulo lateral es la misma que la altura de la pirámide. Por lo tanto, si la base de la pirámide es un cuadrado con lados de longitud a y la altura de la pirámide es h, entonces el área lateral es Al = 4(1/2)ah = 2ah.
+Calcular el área total: el área total de la pirámide es la suma del área lateral y el área de la base. Si la base de la pirámide es un cuadrado con lados de longitud a y la altura de la pirámide es h, entonces el área total es At = A + Al = a² + 2ah.
+Calcular el volumen: el volumen de la pirámide es la cantidad de espacio que ocupa en el espacio tridimensional. Se puede calcular utilizando la fórmula V = (1/3)Ah, donde A es el área de la base y h es la altura de la pirámide. Para una pirámide regular, la altura de la pirámide es la distancia desde el vértice hasta el centro de la base. Si la base de la pirámide es un cuadrado con lados de longitud a y la altura de la pirámide es h, entonces el volumen es V = (1/3)a²h."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

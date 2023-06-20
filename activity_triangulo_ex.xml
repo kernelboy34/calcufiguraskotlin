@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".triangulo_ex">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="197dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="79dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/polygon_2" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="341dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="292dp"
+        android:text="Un triángulo es una figura geométrica plana que tiene tres lados y tres ángulos. Algunos cálculos que se pueden hacer con un triángulo incluyen:
+
+Calcular el perímetro: el perímetro del triángulo es la suma de las longitudes de sus tres lados. Si los lados son a, b y c, entonces el perímetro es P = a + b + c.
+Calcular el área: el área del triángulo es la cantidad de espacio que ocupa dentro de sus tres lados. Se puede calcular utilizando la fórmula de Herón: A = √(s(s-a)(s-b)(s-c)), donde s es la semiperímetro del triángulo, definido como s = (a+b+c)/2.
+Calcular la altura: la altura del triángulo es la línea perpendicular desde un vértice hasta el lado opuesto. Si la altura se mide desde el vértice A al lado opuesto BC, entonces la altura h es: h = 2A/b.
+Calcular los ángulos: en un triángulo, la suma de los ángulos internos siempre es igual a 180 grados. Si se conocen dos ángulos del triángulo, se puede calcular el tercer ángulo restando la suma de los dos ángulos conocidos de 180 grados.
+Calcular la longitud de un lado: si se conocen los otros dos lados y el ángulo opuesto a uno de ellos, se puede utilizar la ley de cosenos para calcular la longitud del lado faltante. Es decir, a² = b² + c² - 2bc cos(A), donde A es el ángulo opuesto al lado a.
+Calcular el perímetro y el área de un triángulo inscrito en un círculo: si un triángulo está inscrito en un círculo, entonces el circuncentro (centro del círculo circunscrito) es el punto de intersección de las tres bisectrices del triángulo, y el radio del círculo circunscrito es igual al producto de los tres lados del triángulo dividido entre cuatro veces su área. Entonces, el perímetro del triángulo es igual al diámetro del círculo multiplicado por π, y el área del triángulo es igual a la mitad del producto del radio del círculo circunscrito y el perímetro del triángulo."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

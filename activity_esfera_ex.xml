@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".esfera_ex">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="284dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circulop" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="358dp"
+        android:layout_height="395dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="287dp"
+        android:text="Una esfera es una figura geométrica tridimensional que se define como el conjunto de todos los puntos en el espacio que se encuentran a una distancia constante, llamada radio, de un punto fijo llamado centro.
+
+La esfera es una figura geométrica importante en matemáticas y se utiliza en una amplia variedad de campos, incluyendo geometría, trigonometría, cálculo y física.
+
+Algunos cálculos que se pueden hacer con una esfera incluyen:
+
+Calcular el diámetro: el diámetro de una esfera es la distancia que hay entre dos puntos opuestos en la superficie de la esfera. Se puede calcular multiplicando el radio por 2. Es decir, si el radio de la esfera es r, entonces el diámetro es d = 2r.
+Calcular la circunferencia: la circunferencia de una esfera no se puede calcular directamente, ya que no es una figura plana. En su lugar, se utiliza el concepto de longitud de arco para medir la distancia a lo largo de la superficie de la esfera entre dos puntos. La longitud del arco se puede calcular utilizando la fórmula L = rθ, donde θ es el ángulo subtendido por el arco (medido en radianes) y r es el radio de la esfera.
+Calcular el área: el área de una esfera es la cantidad de espacio que ocupa su superficie. Se puede calcular utilizando la fórmula A = 4πr².
+Calcular el volumen: el volumen de una esfera es la cantidad de espacio que ocupa en el espacio tridimensional. Se puede calcular utilizando la fórmula V = (4/3)πr³.
+Calcular la densidad: la densidad de una esfera es la cantidad de masa que hay por unidad de volumen. Se puede calcular dividiendo la masa total de la esfera por su volumen. Por ejemplo, si la esfera tiene una masa de m y un volumen de V, entonces su densidad es ρ = m/V.
+Calcular la fuerza gravitacional: la fuerza gravitacional entre dos esferas se puede calcular utilizando la ley de gravitación universal. La fórmula es F = Gm₁m₂/r², donde F es la fuerza gravitacional, G es la constante gravitacional, m₁ y m₂ son las masas de las dos esferas y r es la distancia entre sus centros."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

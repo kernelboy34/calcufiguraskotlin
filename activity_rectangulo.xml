@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp6809975"
+    tools:context=".rectangulo">
+
+    <EditText
+        android:id="@+id/editTextNumber18"
+        android:layout_width="91dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="284dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber17"
+        android:layout_width="91dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="212dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="292dp"
+        android:text="rango:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="25dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="228dp"
+        android:text="area:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="176dp"
+        android:text="longitud :"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="81dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ellipse_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?android:attr/textSelectHandleRight" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="165dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="196dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_7" />
+
+    <EditText
+        android:id="@+id/editTextNumber6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="178dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="512dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber13"
+        android:layout_width="91dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="156dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rectangulo_ex">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="235dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_7" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="330dp"
+        android:layout_height="377dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="268dp"
+        android:textSize="11dp"
+        android:text="Un rectángulo es una figura geométrica plana que se define como un cuadrilátero con cuatro ángulos rectos y lados opuestos paralelos y congruentes entre sí.
+
+El rectángulo es otra figura geométrica importante en matemáticas y se utiliza en una amplia variedad de campos, incluyendo geometría, trigonometría, cálculo y física.
+
+Algunos cálculos que se pueden hacer con un rectángulo incluyen:
+
+Calcular el perímetro: el perímetro de un rectángulo es la suma de las longitudes de sus cuatro lados. Se puede calcular sumando dos veces la longitud y dos veces la anchura del rectángulo. Es decir, si la longitud del rectángulo es L y su anchura es A, entonces el perímetro es P = 2L + 2A.
+Calcular el área: el área de un rectángulo es la cantidad de espacio que ocupa su superficie. Se puede calcular multiplicando la longitud por la anchura del rectángulo. Es decir, si la longitud del rectángulo es L y su anchura es A, entonces el área es A = L x A.
+Calcular la diagonal: la diagonal de un rectángulo es la línea recta que une dos vértices opuestos del rectángulo. Se puede calcular utilizando el teorema de Pitágoras. Si la longitud del rectángulo es L y su anchura es A, entonces la diagonal es D = √(L² + A²).
+Calcular los ángulos: los cuatro ángulos de un rectángulo son rectos, es decir, miden 90 grados cada uno. Además, los ángulos opuestos en un rectángulo son iguales entre sí. Por lo tanto, si conocemos la medida de uno de los ángulos, podemos calcular la medida de los otros tres.
+Calcular la diagonal menor: la diagonal menor de un rectángulo es la línea recta que une los dos vértices opuestos que no están unidos por la diagonal. Se puede calcular utilizando el teorema de Pitágoras. Si la longitud del rectángulo es L y su anchura es A, entonces la diagonal menor es d = √(L² + A²)/2."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

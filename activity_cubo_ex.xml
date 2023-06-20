@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cubo_ex">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="323dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="107dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cuadrado" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="363dp"
+        android:layout_height="353dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginBottom="56dp"
+        android:text="Un cubo es una figura geométrica tridimensional que se define como un poliedro regular con seis caras cuadradas iguales y ángulos rectos en todas sus esquinas.
+
+El cubo es otra figura geométrica importante en matemáticas y se utiliza en una amplia variedad de campos, incluyendo geometría, trigonometría, cálculo y física.
+
+Algunos cálculos que se pueden hacer con un cubo incluyen:
+
+Calcular el perímetro: el perímetro de un cubo es la suma de las longitudes de sus doce aristas. Se puede calcular multiplicando la longitud de una arista por 12. Es decir, si la longitud de una arista del cubo es a, entonces el perímetro es P = 12a.
+Calcular el área: el área de un cubo es la cantidad de espacio que ocupa su superficie. Se puede calcular multiplicando la longitud de una arista por sí misma y luego por 6, ya que un cubo tiene seis caras cuadradas iguales. Es decir, si la longitud de una arista del cubo es a, entonces el área es A = 6a².
+Calcular el volumen: el volumen de un cubo es la cantidad de espacio que ocupa en el espacio tridimensional. Se puede calcular multiplicando la longitud de una arista por sí misma y luego por sí misma otra vez. Es decir, si la longitud de una arista del cubo es a, entonces el volumen es V = a³.
+Calcular la diagonal: la diagonal de un cubo es la línea recta que une dos vértices opuestos del cubo. Se puede calcular utilizando el teorema de Pitágoras. Si la longitud de una arista del cubo es a, entonces la diagonal es D = √(3a²).
+Calcular el espacio diagonal: el espacio diagonal de un cubo es la línea recta que une dos puntos opuestos de una diagonal de una cara a la diagonal correspondiente de la cara opuesta. Se puede calcular utilizando la fórmula S = √(2a²).
+Calcular la longitud de una diagonal de una cara: la longitud de una diagonal de una cara de un cubo se puede calcular utilizando el teorema de Pitágoras. Si la longitud de una arista del cubo es a, entonces la longitud de la diagonal de una cara es d = √(2a²).
+Calcular la longitud de una diagonal de una arista: la longitud de una diagonal de una arista de un cubo se puede calcular utilizando la fórmula d = a√(2)."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

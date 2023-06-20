@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".circulo_ex">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="161dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/caudra" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="333dp"
+        android:layout_height="381dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="296dp"
+        android:text="Un círculo es una figura geométrica plana que se define como el conjunto de todos los puntos en un plano que se encuentran a una distancia constante, llamada radio, de un punto fijo llamado centro.
+
+El círculo es una de las figuras geométricas más importantes en matemáticas y se utiliza en una amplia variedad de campos, incluyendo geometría, trigonometría, cálculo y física.
+
+Algunos cálculos que se pueden hacer con un círculo incluyen:
+
+Calcular el diámetro: el diámetro de un círculo es la distancia que hay entre dos puntos opuestos en la circunferencia. Se puede calcular multiplicando el radio por 2. Es decir, si el radio del círculo es r, entonces el diámetro es d = 2r.
+Calcular la circunferencia: la circunferencia de un círculo es la longitud de la línea curva que forma su borde. Se puede calcular utilizando la fórmula C = 2πr, donde π es una constante matemática aproximadamente igual a 3,14159 y r es el radio del círculo.
+Calcular el área: el área de un círculo es la cantidad de espacio que ocupa su superficie. Se puede calcular utilizando la fórmula A = πr².
+Calcular la longitud del arco: la longitud del arco de un círculo es la distancia a lo largo de la circunferencia entre dos puntos en el borde del círculo. Se puede calcular utilizando la fórmula L = rθ, donde θ es el ángulo subtendido por el arco (medido en radianes).
+Calcular el ángulo central: el ángulo central de un círculo es el ángulo subtendido por un arco de la circunferencia desde el centro del círculo. Se puede calcular utilizando la fórmula θ = L/r, donde L es la longitud del arco y r es el radio del círculo."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
